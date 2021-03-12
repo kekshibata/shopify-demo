@@ -7,7 +7,6 @@ on:
     branches: [master]
   repository_dispatch:
     branches: [master]
-    types: [blog_post]
 
 jobs:
   build:
