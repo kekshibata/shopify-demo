@@ -10,7 +10,7 @@ const AddToCart = ({ variantId, quantity, available, ...props }) => {
   return (
     <Button
       colorScheme={primaryColorScheme}
-      onClick={() => addVariantToCart}
+      onClick={() => addVariantToCart(variantId, quantity)}
       disabled={!available || loading}
       {...props}
     >
