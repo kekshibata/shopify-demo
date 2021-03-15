@@ -9,7 +9,7 @@ const Products = ({ data: { products } }) => {
   return (
     <Layout>
       <SEO title="All Products in Hexagon Store" />
-      <VisuallyHidden as="h1">Products</VisuallyHidden>
+      <VisuallyHidden as="h1">商品一覧</VisuallyHidden>
       <Container py={20}>
         <ProductListing products={products} />
       </Container>
