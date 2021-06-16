@@ -88,6 +88,7 @@ export const StoreProvider = ({ children }) => {
       .then((res) => {
         setCheckout(res)
         console.log(res)
+        console.log(lineItemsToUpdate)
         setLoading(false)
       })
   }
