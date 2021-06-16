@@ -87,6 +87,7 @@ export const StoreProvider = ({ children }) => {
       .addLineItems(checkoutID, lineItemsToUpdate)
       .then((res) => {
         setCheckout(res)
+        console.log(res)
         setLoading(false)
       })
   }
